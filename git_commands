@@ -1,0 +1,150 @@
+ 1  pwd
+    2  ls-l
+    3  ls -l
+    4  ls
+    5  cd devops
+    6  ll
+    7  cd git-test
+    8  ll
+    9  git status
+   10  git log
+   11  ll
+   12  mkdir learning_git
+   13  ll
+   14  cd learning_git
+   15  ls
+   16  git init
+   17  ls
+   18  ll
+   19  git log
+   20  git status
+   21  vim file-1.txt
+   22  git config --global user.name "Anurag Nair"
+   23  git config --global user.email "anuragnair@live.in"
+   24  git status
+   25  git add file-1.txt
+   26  git commit -m "addedfirstfile"
+   27  git status
+   28  git log
+   29  vim file-2.txt
+   30  git status
+   31  git add file-2.txt
+   32  git commit-m "addedsecfile"
+   33  git status
+   34  git log
+   35  git commit -m "addedsecfile"
+   36  git log
+   37  git -oneline
+   38  git log -oneline
+   39  git log
+   40  git log -oneline
+   41  git log - oneline
+   42  git log
+   43  git checkout -b dev
+   44  git branch
+   45  vim file-3.txt
+   46  git add .
+   47  git status
+   48  git commit -m "addeddevfile"
+   49  git status
+   50  git log
+   51  git lohg --oneline
+   52  git log --oneline
+   53  vim file-3.txt
+   54  git add .
+   55  git commit -m "addedchangestofile3"
+   56  git log
+   57  vim file-3.txt
+   58  git add .
+   59  git commit -m "addedwrongcode"
+   60  git log --oneline
+   61  clear
+   62  git log --oneline
+   63  git revert 36ef64d
+   64  cat file-3.txt
+   65  git log --oneline
+   66  ls
+   67  cat file-3.txt
+   68  git log --onelne
+   69  git log --oneline
+   70  git reset 8e4f8aa
+   71  git status
+   72  vim file-3.txt
+   73  git add .
+   74  git commit -m "addedfixes"
+   75  git log --oneline
+   76  ls
+   77  cat file-2.txt
+   78  vim file-2.txt
+   79  git status
+   80  git add .
+   81  git commit -m "addedlinestofile2"
+   82  git log --oneline
+   83  git checkout master
+   84  ls
+   85  git log --oneline
+   86  git cherry-pick 81155c4
+   87  cat file-2.txt
+   88  git status
+   89  got log --oneline
+   90  git log --oneline
+   91  clear
+   92  git status
+   93  git log --oneline
+   94  git checkout dev
+   95  git log --oneline
+   96  ls
+   97  vim file-3.txt
+   98  git add .
+   99  git commit -m "dev1addedchangestofile-3"
+  100  git log pretty
+  101  git log --pretty=oneline
+  102  git log --oneline
+  103  git checkout master
+  104  git branch
+  105  git merge dev
+  106  ls
+  107  git log --one;ine
+  108  git log --oneline
+  109  cat file-3.txt
+  110  ls
+  111  git remote -v
+  112  git remote add origin https://github.com/nairanub/git-test.git
+  113  git remote -v
+  114  git pull origin master
+  115  git pull origin master --rebase
+  116  git log --oneline
+  117  git push origin master
+  118  git log --oneline
+  119  pwd
+  120  ll
+  121  cd learning_git
+  122  ll
+  123  git status
+  124  git branch
+  125  git pull origin dev
+  126  ll
+  127  vim file4.txt
+  128  git status
+  129  git add .
+  130  git commit -m "addednewfeature"
+  131  git pull origin dev
+  132  git push origin dev
+  133  git pull origin dev --rebase
+  134  vim file-4.txt
+  135  vim file4.txt
+  136  git status
+  137  git rebase --continue
+  138  git add file4.txt
+  139  git status
+  140  git rebase --continue
+  141  git push origin dev
+  142  git branch
+  143  git pull origin dev
+  144  git fetch
+  145  git branch
+  146  git checkout staging
+  147  git status
+  148  ll
+  149  history
+
